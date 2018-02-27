@@ -1,0 +1,89 @@
+*{padding:0px;margin:0px;}
+body{background-image:url("../images/altus-trabajos-verticales2.jpg");background-repeat:no-repeat;background-size:100%;background-attachment:fixed;background-color:#FFFFFF;margin-left:0px;margin-right:0px;margin-bottom:0px;}
+header{background:rgba(0,0,0,0.95);width:100%;position:fixed;z-index:10;margin-top:-1%;}
+footer{background:rgba(0,0,0,0.95);width:100%;color:#FFFFFF;font-family:Arial;padding-top:30px;}
+footer h2{font-family:'Anton', sans-serif;font-size:2.5em;}
+header label{display:none;width:30px;height:30px;padding:10px;border-right:1px solid #FFF;}
+#btn-menu{display:none;}
+.logo{position:relative;width:20%;padding-top:90px;padding-left:20px;}
+.containerFluid{width:100%;display:block;}
+nav{float:right;}
+nav ul{list-style:none;overflow:hidden;display:flex;}
+nav ul li{float:right;margin-right:5px;padding-right:10px;font-family:Arial, sans-serif;font-size:16px;}
+nav ul li a{display:block;padding:20px;color:#FFFFFF;text-decoration:none;}
+nav ul li:hover{background:#3ead47;}
+.titles{padding-top:200px;color:#FFFFFF;font-family:Arial;height:768px;width:30%;}
+.titles h1{font-size:4em;font-family:'Anton', sans-serif;color:#0f4923;background-color:#FFFFFF;letter-spacing:5px;padding-top:5px;border-radius:10px;}
+.subtitle{font-family:'Anton', sans-serif;font-size:1.5em;color:#0f4923;background-color:#FFFFFF;letter-spacing:2px;text-align:left;padding:5px;border-radius:10px;}
+.ropeaccess{background-color:#FFFFFF;margin-left:0px;margin-right:0px;margin-bottom:0px;padding-bottom:10px;font-family:Arial;width:100%;}
+.ropeaccess h2{margin-left:20px;margin-top:20px;padding:60px;font-family:'Anton', sans-serif;font-size:6em;border-bottom:14px solid #ffffff;border-top:14px solid #ffffff;}
+.ropeaccess p{margin-left:10px;width:70%;padding-top:10px;text-align:justify;}
+.tow-columns{width:85%;-webkit-column-count:2;-moz-column-count:2;column-count:2;-webkit-column-gap:5px;-moz-column-gap:5px;column-gap:5px;-webkit-column-rule:0.3rem solid #0f4923;-moz-column-rule:0.3rem solid #0f4923;column-rule:0.3rem solid #0f4923;}
+.tree-columns{width:80%;-webkit-column-count:3;-moz-column-count:3;column-count:3;-webkit-column-gap:5px;-moz-column-gap:5px;column-gap:5px;text-align:center;}
+.four-columns{width:80%;-webkit-column-count:4;-moz-column-count:4;column-count:4;-webkit-column-gap:2px;-moz-column-gap:2px;column-gap:2px;text-align:center;}
+.trabajos{height:200px;width:200px;background-repeat:no-repeat;background-position:50%;border-radius:50%;background-size:100% auto;}
+.salto{width:100%;height:70px;background-color:#FFFFFF;}
+.intermedio{background-image:url("../images/limpieza.jpg");background-size:cover;width:100%;height:768px;padding:10px;}
+.intermedio1{background-color:rgba(0,0,0,0.6);background-size:cover;height:700px;padding:10px;}
+.intermedio2{background-image:url("../images/limpieza-vidrios.jpg");background-size:cover;width:100%;height:840px;padding:10px;}
+.aboutus{background-color:#FFFFFF;text-color:black;margin-left:0px;margin-right:0px;margin-bottom:0px;padding-bottom:10px;font-family:Arial;width:100%;}
+.aboutus h2{margin-left:20px;margin-top:20px;padding:60px;font-family:'Anton', sans-serif;font-size:6em;border-bottom:14px solid #ffffff;border-top:14px solid #ffffff;}
+.aboutus p{margin-left:10px;width:70%;padding-top:10px;text-align:justify;}
+.services{background-color:#ffffff;margin:0px;font-family:Arial;width:100%;}
+.services h2{margin-left:20px;margin-top:0px;padding:60px;font-family:'Anton', sans-serif;font-size:6em;border-bottom:14px solid #ffffff;border-top:14px solid #ffffff;}
+.services p{margin-left:20px;width:70%;padding-top:10px;}
+.services ul li{margin-left:20px;padding-top:5px;}
+.servi{width:70%;margin-left:210px;padding-top:20px;padding-bottom:10px;}
+.clientsLogo{height:100px;width:300px;background-repeat:no-repeat;background-position:50%;background-size:100% auto;}
+.clients{background-color:#FFFFFF;text-color:black;margin-left:0px;margin-right:0px;margin-bottom:0px;padding-bottom:10px;font-family:Arial;width:100%;height:600px;}
+.clients h2{margin-left:20px;margin-top:0px;padding:60px;font-family:'Anton', sans-serif;font-size:80px;border-bottom:14px solid #ffffff;border-top:14px solid #ffffff;}
+.clients p{margin-left:20px;width:70%;padding-top:10px;text-align:justify;}
+.persons{background-color:#ffffff;text-color:black;margin-left:0px;margin-right:0px;margin-bottom:0px;padding-bottom:10px;font-family:Arial;width:100%;}
+.persons h2{margin-left:20px;margin-top:0px;padding:60px;font-family:'Anton', sans-serif;font-size:6em;border-bottom:14px solid #ffffff;border-top:14px solid #ffffff;}
+.persons p{margin-left:20px;width:70%;padding-top:10px;text-align:justify;}
+.fa{padding:10px;font-size:20px;width:20px;text-align:center;text-decoration:none;margin:5px 2px;border-radius:50%;}
+.fa:hover{opacity:0.7;}
+.fa-facebook{background:#3ead47;color:white;}
+.fa-instagram{background:#3ead47;color:white;}
+#contacto{width:30%,}
+@media (max-width:768px){header label{display:block;}
+nav{position:absolute;width:45%;margin-left:-70%;transition:all 0.5s;background:rgba(0,0,0,0.95);justify-content:flex-end;}
+nav ul{flex-direction:column;}
+nav li{border-top:1px solid #FFF;padding:5px 10px;}
+#btn-menu:checked ~ nav{margin-left:0;﻿}
+.tow-columns{width:100%;-webkit-column-count:1;-moz-column-count:1;column-count:1;}
+.tree-columns{width:100%;-webkit-column-count:1;-moz-column-count:1;column-count:1;}
+.four-columns{width:100%;-webkit-column-count:1;-moz-column-count:1;column-count:1;}
+.intermedio1{display:none;}
+.intermedio2{background-image:url("../images/limpieza-vidrios-small.jpg");width:100%;height:768;}
+.intermedio{background-image:url("../images/limpieza-small.jpg");width:100%;height:440px;}
+.titles{width:60%;}
+.aboutus h2{font-size:3em;}
+.ropeaccess h2{font-size:3em;}
+.clients h2{font-size:3em;}
+.services h2{font-size:3em;}
+.persons h2{font-size:3em;}
+.clientsLogo{padding:29px;}
+}
+@media (max-width:480px){header label{display:block;}
+nav{position:absolute;width:50%;margin-left:-70%;transition:all 0.5s;background:rgba(0,0,0,0.95);justify-content:flex-end;}
+nav ul{flex-direction:column;}
+nav li{border-top:1px solid #FFF;padding:5px 10px;}
+#btn-menu:checked ~ nav{margin-left:0;﻿}
+.tow-columns{width:100%;}
+.tree-columns{width:100%;}
+.four-columns{width:100%;}
+.intermedio1{display:none;}
+.intermedio2{background-image:url("../images/limpieza-vidrios-tiny.jpg");width:100%;height:336px;}
+.intermedio{background-image:url("../images/limpieza-tiny.jpg");width:100%;height:480px;}
+.titles{width:80%;}
+.aboutus h2{font-size:2.5.5em;}
+.aboutus p{width:90%;}
+.ropeaccess h2{font-size:2.5em;}
+.ropeaccess p{width:90%;}
+.clients h2{font-size:2.5em;}
+.services h2{font-size:2.5em;}
+.services p{width:90%;}
+.persons h2{font-size:2.5em;}
+.clientsLogo{padding:29px;}
+}
